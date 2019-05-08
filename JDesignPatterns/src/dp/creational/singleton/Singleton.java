@@ -9,6 +9,7 @@ package dp.creational.singleton;
  * Singleton design pattern.
  * Some examples useful
  * https://www.journaldev.com/1377/java-singleton-design-pattern-best-practices-examples
+ * 
  * @author Diego Catalano
  */
 public class Singleton {
