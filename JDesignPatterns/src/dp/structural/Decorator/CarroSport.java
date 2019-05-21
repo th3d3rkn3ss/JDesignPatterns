@@ -3,22 +3,21 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package dp.structural.decorator;
+package dp.structural.Decorator;
 
 /**
  *
  * @author Mateus Araújo
  */
-public class CarroDecorator implements ICarro {
+public class CarroSport extends CarroDecorator {
 
-    protected ICarro carro;
-
-    public CarroDecorator(ICarro c) {
-        this.carro = c;
+    public CarroSport(ICarro c) {
+        super(c);
     }
 
     @Override
     public void montar() {
-        this.carro.montar();
+        super.montar();
+        System.out.print(" Adicionando características ao carro sport.");
     }
 }

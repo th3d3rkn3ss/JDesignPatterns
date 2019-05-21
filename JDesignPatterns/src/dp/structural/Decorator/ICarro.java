@@ -3,16 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package dp.structural.decorator;
+package dp.structural.Decorator;
 
 /**
  *
  * @author Mateus Araújo
  */
-public class CarroBasico implements ICarro {
-
-    @Override
-    public void montar() {
-        System.out.print("Carro básico.");
-    }
+public interface ICarro {
+    public void montar();
 }
