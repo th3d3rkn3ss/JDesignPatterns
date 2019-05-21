@@ -1,4 +1,4 @@
-package dp.creational.factorymethod;
+package dp.creational.FactoryMethod;
 
 public class Whopper extends Sanduiche{
     

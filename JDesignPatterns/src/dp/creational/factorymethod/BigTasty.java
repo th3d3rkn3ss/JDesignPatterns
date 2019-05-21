@@ -1,5 +1,5 @@
 
-package dp.creational.factorymethod;
+package dp.creational.FactoryMethod;
 
 public class BigTasty extends Sanduiche{
     
