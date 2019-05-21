@@ -1,7 +1,12 @@
 
-package objectpool.db;
+package dp.creational.ObjectPool;
 // Classe que trata da conexão com a base de dados
 // Necessário a conexão de fonte de dados, um login e uma senha
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
+
 public class JDBCConnectionPool extends ObjectPool<Connection> {
 
   private String dsn, usr, pwd;

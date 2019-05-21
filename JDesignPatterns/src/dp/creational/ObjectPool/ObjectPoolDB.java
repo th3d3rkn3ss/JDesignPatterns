@@ -1,5 +1,5 @@
 
-package objectpool.db;
+package dp.creational.ObjectPool;
 
 public class ObjectPoolDB {
 

@@ -1,5 +1,8 @@
 
-package objectpool.db;
+package dp.creational.ObjectPool;
+
+import java.util.Enumeration;
+import java.util.Hashtable;
 
 public abstract class ObjectPool<T> {
   private long expirationTime;
@@ -19,8 +22,6 @@ public abstract class ObjectPool<T> {
   public abstract boolean validate(T o);
 
   public abstract void expire(T o);
-
- 
   
   // A palavra "synchronized" da a característica e recebe qual é o objeto que será usado como chave.
   // A chave so é devolvida no tempo em que a Thread que tinha essa chave sair do bloco, por um return.
