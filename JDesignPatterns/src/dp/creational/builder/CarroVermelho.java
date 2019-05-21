@@ -9,7 +9,7 @@ package newbuildercarro;
  *
  * @author joao
  */
-public class CarroVermelho { //Diretor
+public class CarroVermelho { 
     private final ICarroBuilder builder;
 
     public CarroVermelho(final ICarroBuilder builder) {
